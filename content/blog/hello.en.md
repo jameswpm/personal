@@ -3,6 +3,7 @@ categories: ["Post"]
 tags: ["intro"]
 title: "Hello, world!"
 date: 2018-08-04T19:14:20-03:00
+slug: "hello-world"
 ---
 
 This is my first post and its here just to test everything and confirm that everything is working fine.

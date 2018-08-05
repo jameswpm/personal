@@ -7,12 +7,12 @@
         <div class="avatar">
           <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
         </div>
-        <h3>{{ .Site.Params.myintro }} <strong>{{ .Site.Params.author }}</strong></h3>
+        <h3>{{ .Site.Params.myintro }} <strong>{{ .Site.Params.author }}.</strong></h3>
         <h3>{{ .Site.Params.mydescription }}</h3>
         <h3>{{ .Site.Params.myabout }} <a href="{{ .Site.BaseURL }}{{ .Site.Params.languageid }}/whoami/"> {{ .Site.Params.about }}</a></h3>
-        <h3>{{ .Site.Params.mywork }} <a href="{{ .Site.BaseURL }}{{ .Site.Params.projectspage }}/"> {{ .Site.Params.projects }}</a></h3>
+        <h3>{{ .Site.Params.mywork }} <a href="{{ .Site.BaseURL }}{{ .Site.Params.projectspage }}/"> {{ .Site.Params.projects }}!</a></h3>
         <br/>
-        <h4>{{ .Site.Params.mycontact }} <a href="http://twitter.com/{{ .Site.Params.Social.Twitter }}">@{{ .Site.Params.Social.Twitter }}</a> {{ .Site.Params.myemail }}</a>.</h4>
+        <h4>{{ .Site.Params.mycontact }} <a href="http://twitter.com/{{ .Site.Params.Social.Twitter }}">@Twitter</a> {{ .Site.Params.myemail }}</a>.</h4>
         {{ partial "social.html" . }}
         </div>
       </section>

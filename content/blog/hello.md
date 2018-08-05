@@ -3,6 +3,7 @@ categories: ["Post"]
 tags: ["intro"]
 title: "Olá mundo!"
 date: 2018-08-04T19:13:12-03:00
+slug: "hello-world"
 ---
 
 Este é o primeiro post do blog e o objetivo principal é funcionar como um teste para verificar se está tudo funcionando corretamente.

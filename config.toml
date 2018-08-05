@@ -9,7 +9,7 @@ googleAnalytics        = ""
 theme                  = "hugo-sustain"
 
 [permalinks]
-  post = "/:year/:month/:day/:slug"
+  blog = "/:year/:month/:day/:slug"
 
 [languages]
   [languages.pt]
@@ -42,6 +42,11 @@ theme                  = "hugo-sustain"
       identifier = "palestras"
       weight = 200
       url = "/talks/"
+    [[languages.pt.menu.main]]
+      name = "quem sou eu ?"
+      identifier = "quemsoueu"
+      weight = 200
+      url = "/whoami/"
     [languages.pt.params]
 
   [languages.en]
@@ -74,6 +79,11 @@ theme                  = "hugo-sustain"
       identifier = "talks"
       weight = 200
       url = "/en/talks/"
+    [[languages.en.menu.main]]
+      name = "who am i?"
+      identifier = "whoami"
+      weight = 200
+      url = "/en/whoami/"
     [languages.en.params]
 
       

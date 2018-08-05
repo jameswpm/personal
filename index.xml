@@ -31,10 +31,10 @@
     
     <item>
       <title>Olá mundo!</title>
-      <link>https://jameswpm.github.io/personal/blog/hello/</link>
+      <link>https://jameswpm.github.io/personal/2018/08/04/hello-world/</link>
       <pubDate>Sat, 04 Aug 2018 19:13:12 -0300</pubDate>
       
-      <guid>https://jameswpm.github.io/personal/blog/hello/</guid>
+      <guid>https://jameswpm.github.io/personal/2018/08/04/hello-world/</guid>
       <description>Este é o primeiro post do blog e o objetivo principal é funcionar como um teste para verificar se está tudo funcionando corretamente.
 Levando em consideração que esse é um blog voltado para tecnologia, nada melhor para um teste do que executar um bom e velho &amp;ldquo;Hello, world!&amp;rdquo;. Dessa forma, deixo abaixo a implementação desse programa nas linguagens com as quais trabalho atualmente.
 Hello, world! em Java

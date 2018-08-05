@@ -1,0 +1,24 @@
+name: Talks
+description: Some of my presentations
+items:
+  - name: Web Semântica - Como e por que (In Portuguese)
+    slides:
+      icon: "fa fa-play"
+      url: "https://prezi.com/view/vgvnEKBXDuLy4hlBNYz9"
+    video:
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/watch?v=kw15t891dP4"
+    description: An in company presentation on Semantic Web at MT4 Networks as part of the "Pirando!" that encourages employees to make this kind of presentation - 2018
+  - name: Gerenciamento de projetos de software - O que é? De onde vem? Pra onde vai? (In Portuguese)
+    slides:
+      icon: "fa fa-file"
+      url: "https://www.slideshare.net/jamesmiranda735/gerenciamento-de-projetos-de-software"
+    description: Presentation about project Management given at the UNORP in São José do Rio preto - SP -Brazil - 2017
+  - name: Construindo APIs com PHP (in Portuguese)
+    slides:
+      icon: "fa fa-file"
+      url: "http://www.slideshare.net/jamesmiranda735/construindo-ap-is-usando-php"
+    content:
+      icon: "fab fa-github"
+      url: "https://github.com/jameswpm/fatec-exemplos"
+    description: Short course "Construindo APIs com PHP" given at the "IV Semana de Tecnologia de Informação" of FATEC in São José do Rio Preto - 2016

@@ -1,0 +1,116 @@
+baseurl                = "https://jameswpm.github.io/personal"
+languageCode           = "pt"
+defaultContentLanguage = 'pt'
+title                  = "James Miranda"
+# Enable comments by entering your Disqus shortname
+disqusShortname        = "james-mirandas-blog"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics        = ""
+theme                  = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[languages]
+  [languages.pt]
+    title         = "James Miranda - Blog Pessoal"
+    weight        = 0
+    description   = "Blog pessoal para divulgação de textos e projetos"
+    myintro       = "Olá mundo! Meu nome é "
+    mydescription = "Apaixonado pela Web, trabalhando com o tema desde 2011"
+    mywork        = "Veja um pouco do meu trabalho em "
+    projects      = "Projetos"
+    myabout       = "Minha trajetória pode ser vista em"
+    about         = "Quem sou eu?"
+    mycontact     = "Contatos pelo "
+    myemail       = "ou por e-mail no jameswpm [ at ] gmail dot com"
+    notfound      = "Poxa! Parece que essa página não existe! :("
+    projectspage  = "projects"
+    languageid    = ""
+    [[languages.pt.menu.main]]
+      name = "blog"
+      weight = 100
+      identifier = "blog"
+      url = "/blog/"
+    [[languages.pt.menu.main]]
+      name = "projetos"
+      identifier = "projetos"
+      weight = 200
+      url = "/projects/"
+    [[languages.pt.menu.main]]
+      name = "palestras"
+      identifier = "palestras"
+      weight = 200
+      url = "/talks/"
+    [languages.pt.params]
+
+  [languages.en]
+    title         = "James Miranda's Blog"
+    weight        = 1
+    description   = "Personal blog to show my texts and projects"
+    myintro       = "Hello World! I'm "
+    mydescription = "Working with Web technologies since 2011"
+    mywork        = "Some of my work are available at "
+    projects      = "Projects"
+    myabout       = "You can know a little about me in "
+    about         = "Who am I?"
+    mycontact     = "Contact me at "
+    myemail       = "or by email jameswpm [ at ] gmail dot com"
+    notfound      = "Oh no! This page doesn't exist here! :("
+    languageid    = "en"
+    projectspage  = "en/projects"
+    [[languages.en.menu.main]]
+      name = "blog"
+      weight = 100
+      identifier = "blog"
+      url = "/en/blog/"
+    [[languages.en.menu.main]]
+      name = "projects"
+      identifier = "projects"
+      weight = 200
+      url = "/en/projects/"
+    [[languages.en.menu.main]]
+      name = "talks"
+      identifier = "talks"
+      weight = 200
+      url = "/en/talks/"
+    [languages.en.params]
+
+      
+
+[params]
+  avatar = "profile.png"
+  author = "James Miranda"
+  
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+  [params.social]
+    Github        = "jameswpm"
+    Twitter       = "Doctor_Brown"
+    LinkedIn      = "james-m-85938229"
+    Stackoverflow = "3943162"
+    CodePen       = "jameswpm"
+    SlideShare    = "jamesmiranda735"
+    Quora         = "James-Miranda"
+    Medium        = "@doctor_brown"
+    Lattes        = "6520889417048536"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "talks"
+  identifier = "talks"
+  weight = 200
+  url = "/talks/"

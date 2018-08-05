@@ -1,0 +1,36 @@
+{{ $dt := index .Site.Data .Site.Language.Lang }}
+<section id="talks">
+  <div class="container">
+    <h3>{{ $dt.talks.name }}</h3>
+    <h4>{{ $dt.talks.description }}</h4>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        {{ range $i, $elem := $dt.talks.items }}
+          <h5>{{ .name }}</h5>
+          {{ if $elem.slides }}
+            <p>
+              <i class="{{ $elem.slides.icon }}"></i>&nbsp;&nbsp;
+              <strong><a href="{{ $elem.slides.url }}">{{ i18n "slides" . }}</a></strong>&nbsp;
+            </p>
+          {{ end }}
+          {{ if $elem.content }}
+          <p>
+            <i class="{{ $elem.content.icon }}"></i>&nbsp;&nbsp;
+            <strong><a href="{{ $elem.content.url }}">{{ i18n "repository" . }}</a></strong>&nbsp;
+          </p>
+          {{ end }}
+          {{ if $elem.video }}
+          <p>
+            <i class="{{ $elem.video.icon }}"></i>&nbsp;&nbsp;
+            <strong><a href="{{ $elem.video.url }}">{{ i18n "video" . }}</a></strong>&nbsp;
+          </p>
+          {{ end }}         
+          {{ if $elem.description }}
+            <p>{{ $elem.description }}</p>
+          {{ end }}
+          <hr>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

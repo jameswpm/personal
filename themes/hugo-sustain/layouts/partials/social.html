@@ -1,0 +1,38 @@
+<div class="social">
+  <ul class="social-links">
+    {{ if .Site.Params.Social.Github }}
+      <li><a href="http://github.com/{{ .Site.Params.Social.Github }}"><i class="fab fa-github"></i></a></li>
+    {{ end }}
+
+    {{ if .Site.Params.Social.Email }}
+      <li><a href="mailto:{{ .Site.Params.Social.Email }}"><i class="fab fa-envelope"></i></a></li>
+    {{ end }}
+
+    {{ if .Site.Params.Social.Twitter }}
+      <li><a href="http://twitter.com/{{ .Site.Params.Social.Twitter }}"><i class="fab fa-twitter"></i></a></li>
+    {{ end }}
+
+    {{ if .Site.Params.Social.LinkedIn }}
+      <li><a href="http://linkedin.com/in/{{ .Site.Params.Social.LinkedIn }}"><i class="fab fa-linkedin"></i></a></li>
+    {{ end }}
+
+    {{ if .Site.Params.Social.Stackoverflow }}
+      <li><a href="http://stackoverflow.com/users/{{ .Site.Params.Social.Stackoverflow }}"><i class="fab fa-stack-overflow"></i></a></li>
+    {{ end }}
+    {{ if .Site.Params.Social.CodePen }}
+      <li><a href="https://codepen.io/{{ .Site.Params.Social.CodePen }}"><i class="fab fa-codepen"></i></a></li>
+    {{ end }}
+    {{ if .Site.Params.Social.SlideShare }}
+      <li><a href="https://www.slideshare.net/{{ .Site.Params.Social.SlideShare }}"><i class="fab fa-slideshare"></i></a></li>
+    {{ end }}
+    {{ if .Site.Params.Social.Quora }}
+      <li><a href="https://www.quora.com/profile/{{ .Site.Params.Social.Quora }}"><i class="fab fa-quora"></i></a></li>
+    {{ end }}
+    {{ if .Site.Params.Social.Medium }}
+      <li><a href="https://medium.com/{{ .Site.Params.Social.Medium }}"><i class="fab fa-medium"></i></a></li>
+    {{ end }}
+    {{ if .Site.Params.Social.Lattes }}
+      <li><a href="http://lattes.cnpq.br/{{ .Site.Params.Social.Lattes }}"><i class="fa fa-graduation-cap "></i></a></li>
+    {{ end }}
+  </ul>
+</div>

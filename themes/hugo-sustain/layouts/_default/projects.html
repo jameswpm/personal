@@ -1,0 +1,17 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id="projects">
+  <div class="container">
+    <h3>{{ $data.projects.name }}</h3>
+    <h4>{{ $data.projects.description }}</h4>
+    <div class="panel panel-default">
+      <div class="panel-body">
+      {{ range $i, $el := $data.projects.source }}
+        <h5>
+          <i class="{{ .icon }}"></i>&nbsp;&nbsp;
+          <strong><a href="{{ $el.url }}">{{ $el.name }}</a></strong>&nbsp;-&nbsp;{{ $el.description }}
+        </h5>
+      {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

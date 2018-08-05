@@ -1,0 +1,12 @@
+name: Projects
+description: Some personal projects and open-source contributions
+source:
+  - icon: fab fa-github
+    name: EasyFast Framework
+    url: "https://github.com/jameswpm/easyfast"
+    description: PHP full-stack framework used to create complex system in a quicly way.
+
+  - icon: fa fa-book
+    name: Translate of "build-web-application-with-golang"
+    url: "https://github.com/jameswpm/build-web-application-with-golang/tree/master/pt-br"
+    description: Translation of the "build-web-application-with-golang" manual for Brazilian Portuguese.

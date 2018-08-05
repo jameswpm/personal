@@ -1,4 +1,4 @@
-baseurl                = "https://jameswpm.github.io/personal"
+baseurl                = "https://jameswpm.github.io/personal/"
 languageCode           = "pt"
 defaultContentLanguage = 'pt'
 title                  = "James Miranda"

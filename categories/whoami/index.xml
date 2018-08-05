@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Whoami on James Miranda - Blog Pessoal</title>
+    <link>https://jameswpm.github.io/personal/categories/whoami/</link>
+    <description>Recent content in Whoami on James Miranda - Blog Pessoal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Sat, 04 Aug 2018 00:12:01 -0300</lastBuildDate>
+    
+	<atom:link href="https://jameswpm.github.io/personal/categories/whoami/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Um pouco sobre mim</title>
+      <link>https://jameswpm.github.io/personal/whoami/</link>
+      <pubDate>Sat, 04 Aug 2018 00:12:01 -0300</pubDate>
+      
+      <guid>https://jameswpm.github.io/personal/whoami/</guid>
+      <description>Eu me chamo James e tenho me aventurado pelo mundo da tecnologia desde 2009, mais ou menos. Sou Bacharel em Ciência da Computação e mestre em Engenharia de Sofware pela UNESP, em SP. Atualmente, trabalho como programador e meus interesses variam bastante, indo desde o mais trivial problema de programação até o estudo de complexidade de algoritmos e inteligência artificial, porém o tema que mais me interessa e ao qual mais me dedico é a Web.</description>
+    </item>
+    
+  </channel>
+</rss>

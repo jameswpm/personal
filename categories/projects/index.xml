@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on James Miranda - Blog Pessoal</title>
+    <link>https://jameswpm.github.io/personal/categories/projects/</link>
+    <description>Recent content in Projects on James Miranda - Blog Pessoal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Sat, 04 Aug 2018 19:18:23 -0300</lastBuildDate>
+    
+	<atom:link href="https://jameswpm.github.io/personal/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Projetos</title>
+      <link>https://jameswpm.github.io/personal/projects/</link>
+      <pubDate>Sat, 04 Aug 2018 19:18:23 -0300</pubDate>
+      
+      <guid>https://jameswpm.github.io/personal/projects/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

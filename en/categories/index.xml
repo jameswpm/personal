@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on James Miranda&#39;s Blog</title>
+    <link>https://jameswpm.github.io/personal/en/categories/</link>
+    <description>Recent content in Categories on James Miranda&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+	<atom:link href="https://jameswpm.github.io/personal/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Post</title>
+      <link>https://jameswpm.github.io/personal/en/categories/post/</link>
+      <pubDate>Sat, 04 Aug 2018 19:14:20 -0300</pubDate>
+      
+      <guid>https://jameswpm.github.io/personal/en/categories/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://jameswpm.github.io/personal/en/categories/projects/</link>
+      <pubDate>Sat, 04 Aug 2018 19:52:14 -0300</pubDate>
+      
+      <guid>https://jameswpm.github.io/personal/en/categories/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>https://jameswpm.github.io/personal/en/categories/talks/</link>
+      <pubDate>Sat, 04 Aug 2018 22:16:46 -0300</pubDate>
+      
+      <guid>https://jameswpm.github.io/personal/en/categories/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Whoami</title>
+      <link>https://jameswpm.github.io/personal/en/categories/whoami/</link>
+      <pubDate>Sat, 04 Aug 2018 00:12:01 -0300</pubDate>
+      
+      <guid>https://jameswpm.github.io/personal/en/categories/whoami/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

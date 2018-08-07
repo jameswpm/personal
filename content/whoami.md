@@ -8,7 +8,7 @@ date: 2018-08-04T00:12:01-03:00
 Eu me chamo James e tenho me aventurado pelo mundo da tecnologia desde 2009, mais ou menos. Sou Bacharel em Ciência da Computação e mestre em Engenharia de Sofware pela UNESP, em SP.
 </p>
 <p style='text-align: justify;'>
-Atualmente, trabalho como programador e meus interesses variam bastante, indo desde o mais trivial problema de programação até o estudo de complexidade de algoritmos e inteligência artificial, porém o tema que mais me interessa e ao qual mais me dedico é a Web. Sou fascinado pelas transformações que a Web nos proporcionol até aqui e pelas infinitas possibilidades vislumbradas para o futuro.
+Atualmente, trabalho como programador e meus interesses variam bastante, indo desde o mais trivial problema de programação até o estudo de complexidade de algoritmos e inteligência artificial, porém o tema que mais me interessa e ao qual mais me dedico é a Web. Sou fascinado pelas transformações que a Web nos proporcionou até aqui e pelas infinitas possibilidades vislumbradas para o futuro.
 </p>
 <p style='text-align: justify;'>
 Sempre gostei bastante de escrever sobre os mais diferentes assuntos, então esse espaço serve para divulgar, na medida do possível, aquilo que escrevo por aí.

@@ -1,0 +1,13 @@
+name: Artigos
+description: Artigos publicados em periódicos e anais de eventos científicos
+items:
+  - title: "OntoDRE: An ontology for the requirements engineering decision process"
+    slides:
+      icon: "fa fa-play"
+      url: "https://www.slideshare.net/jamesmiranda735/paper-192-in-cisti-2021-ontodre-an-ontology-for-the-requirements"
+    video:
+      icon: "fab fa-youtube"
+      url: "https://youtu.be/QTIidTXG3uw"
+    doi:
+      text: 'J. W. Pontes Miranda and R. Cristiane Gratão de Souza, "OntoDRE: An ontology for the requirements engineering decision process," 2021 16th Iberian Conference on Information Systems and Technologies (CISTI), 2021, pp. 1-6, DOI: 10.23919/CISTI52073.2021.9476446.'      
+      url:  "https://doi.org/10.23919/CISTI52073.2021.9476446"

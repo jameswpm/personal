@@ -1,0 +1,40 @@
+{{ $dt := index .Site.Data .Site.Language.Lang }}
+<section id="papers">
+  <div class="container">
+    <h3>{{ $dt.papers.name }}</h3>
+    <h4>{{ $dt.papers.description }}</h4>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        {{ range $i, $elem := $dt.papers.items }}
+          <h5>{{ .title }}</h5>
+          {{ if $elem.slides }}
+            <p>
+              <i class="{{ $elem.slides.icon }}"></i>&nbsp;&nbsp;
+              <strong><a href="{{ $elem.slides.url }}">{{ i18n "slides" . }}</a></strong>&nbsp;
+            </p>
+          {{ end }}
+          {{ if $elem.content }}
+          <p>
+            <i class="{{ $elem.content.icon }}"></i>&nbsp;&nbsp;
+            <strong><a href="{{ $elem.content.url }}">{{ i18n "repository" . }}</a></strong>&nbsp;
+          </p>
+          {{ end }}
+          {{ if $elem.video }}
+          <p>
+            <i class="{{ $elem.video.icon }}"></i>&nbsp;&nbsp;
+            <strong><a href="{{ $elem.video.url }}">{{ i18n "video" . }}</a></strong>&nbsp;
+          </p>
+          {{ end }}
+          {{ if $elem.doi }}
+            <i class="fa fa-paperclip"></i>&nbsp;&nbsp;
+            <strong><a href="{{ $elem.doi.url }}">{{ $elem.doi.text }}</a></strong>&nbsp;
+          {{ end }}     
+          {{ if $elem.description }}
+            <p>{{ $elem.description }}</p>
+          {{ end }}
+          <hr>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

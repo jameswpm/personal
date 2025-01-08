@@ -47,7 +47,7 @@ class Hello { public static void main(String[] args) { System.out.println(&amp;q
       <pubDate>Sat, 04 Aug 2018 00:12:01 -0300</pubDate>
       
       <guid>https://jameswpm.github.io/personal/en/whoami/</guid>
-      <description>My name is James, I&#39;m a brazilian software developer working with IT since 2009. I hold a BS of Computer Science and a MSc of Software Engineering from UNESP, in São Paulo - Brazil. Currently, I&#39;m working as developer and my interests range from the most trivial programming problems to the study of algorithm complexity analysis and artificial inteligence, but the topic that call me attention is the Web. I am fascinated by the transformations that the Web brought us and the infinite possibilities for the future.</description>
+      <description>My name is James, I&#39;m a Brazilian software developer working with IT since 2009. I hold a BS in Computer Science and an MSc in Software Engineering from UNESP, in São Paulo - Brazil. Currently, I&#39;m pursuing my PhD at IMT Atlantique in Nantes - France, researching the use of Machine Learning techniques applied to Model Views in the context of Model-Driven Engineering. I consider myself a tech generalist, so my interests range from trivial programming problems to the unavoidable breakthroughs in the tech landscape brought by AI in the last few years.</description>
     </item>
     
   </channel>
